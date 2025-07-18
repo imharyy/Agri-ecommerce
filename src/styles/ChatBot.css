@@ -1,0 +1,17 @@
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chatbot button {
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

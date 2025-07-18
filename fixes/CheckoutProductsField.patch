@@ -1,0 +1,20 @@
+userId: user.uid,
+        userEmail: user.email,
+        items: cart,
+        totalAmount: total,
+        shippingAddress: address,
+        status: 'pending',
+        paymentStatus: 'pending',
+        orderDate: new Date(),
+      };
+=======
+      const order = {
+        userId: user.uid,
+        userEmail: user.email,
+        products: cart,
+        totalAmount: total,
+        shippingAddress: address,
+        status: 'pending',
+        paymentStatus: 'pending',
+        orderDate: new Date(),
+      };

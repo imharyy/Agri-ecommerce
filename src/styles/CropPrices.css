@@ -1,0 +1,47 @@
+.crop-prices-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  background-color: #f9fafb;
+}
+
+.crop-prices-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.chart-container {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.crop-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.crop-table th,
+.crop-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.crop-table th {
+  background-color: #e9f5e9;
+  color: #2e7d32;
+}

@@ -1,0 +1,416 @@
+/* .home {
+  min-height: 80vh;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.features-section {
+  padding: 60px 0;
+}
+
+.features-section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #28a745;
+}
+
+.feature-card p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+} */
+
+
+
+
+
+
+
+
+
+.home {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #ffe082;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #388e3c;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background-color: #f9fbe7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #c5e1a5;
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: scale(1.02);
+}
+
+.feature-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* ML Tools Section */
+.ml-section {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.ml-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ml-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.ml-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Dark Mode */
+body.dark .feature-card {
+  background-color: #2c2c2c;
+  color: white;
+  border-color: #444;
+}
+
+body.dark .ml-section {
+  background-color: #1e1e1e;
+}
+
+body.dark .cta-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .ml-btn {
+  background-color: #66bb6a;
+}
+
+.carousel-section {
+  margin-top: 3rem;
+}
+
+.carousel-section h2 {
+  margin-bottom: 1rem;
+}
+
+.product-card {
+  background-color: #f1f8e9;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.product-card .small-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-top: 4rem;
+  background: #e0f2f1;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonial-card {
+  margin: 1rem auto;
+  max-width: 600px;
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+/* Blogs */
+.blogs-preview {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #fffde7;
+  border-radius: 10px;
+}
+
+.blog-card {
+  margin-bottom: 1.5rem;
+}
+
+.blog-card h4 {
+  margin-bottom: 0.3rem;
+}
+
+.blog-card a {
+  color: #4caf50;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.blog-card a:hover {
+  text-decoration: underline;
+}
+
+/* Dark Mode Compatibility */
+body.dark .product-card,
+body.dark .testimonial-card,
+body.dark .blog-card {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+
+
+
+
+/* Layout wrapper */
+.home {
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #ffe082;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #388e3c;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+/* Carousel */
+.carousel-section {
+  margin: 3rem 0;
+}
+
+.product-card {
+  background: #f1f8e9;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.small-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Features Grid */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #f9fbe7;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ML Section */
+.ml-section {
+  background: #e8f5e9;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.ml-btn {
+  background: #4caf50;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-top: 3rem;
+  background: #e0f2f1;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-style: italic;
+}
+

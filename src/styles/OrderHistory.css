@@ -1,0 +1,242 @@
+/* Order History Styles */
+.order-history {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-history h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.order-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid #4caf50;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.order-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.order-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.payment-status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.order-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.order-meta p {
+  margin: 0;
+  font-size: 14px;
+  color: #495057;
+}
+
+.order-meta strong {
+  color: #2c3e50;
+}
+
+.order-items {
+  margin-bottom: 20px;
+}
+
+.order-items h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 16px;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-item span:first-child {
+  color: #495057;
+  font-weight: 500;
+}
+
+.order-item span:last-child {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.shipping-address {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 3px solid #007bff;
+}
+
+.shipping-address h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.shipping-address p {
+  margin: 5px 0;
+  color: #495057;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Empty State */
+.order-history p {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* Status Colors */
+.status[style*="green"] {
+  background-color: #d4edda !important;
+  color: #155724 !important;
+  border-color: #c3e6cb !important;
+}
+
+.status[style*="orange"] {
+  background-color: #fff3cd !important;
+  color: #856404 !important;
+  border-color: #ffeaa7 !important;
+}
+
+.status[style*="blue"] {
+  background-color: #cce5ff !important;
+  color: #004085 !important;
+  border-color: #99d6ff !important;
+}
+
+.status[style*="gray"] {
+  background-color: #e2e3e5 !important;
+  color: #383d41 !important;
+  border-color: #d6d8db !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .order-history {
+    padding: 15px;
+  }
+  
+  .order-card {
+    padding: 20px;
+  }
+  
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .order-status {
+    align-items: flex-start;
+  }
+  
+  .order-meta {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .order-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+/* Loading State */
+.order-history .container {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+/* Track Order Button (if needed in future) */
+.track-order-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.track-order-btn:hover {
+  background-color: #0056b3;
+}
