@@ -270,7 +270,7 @@ const sampleProducts = [
   { id: 1, name: "Rotavator", price: "₹56,000", img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRTTWty9hg5bdcxS06zeFze4i5yPylgXUXBwcX6KwNzYIiV0EZk3zorRjDprwce4_E__0JDlZyikXakh1R9oXDGr7-GRO3kbg" },
   { id: 2, name: "Plough", price: "₹46,000", img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tradeindia.com%2Fproducts%2Fagriculture-mb-plough-c7736358.html&psig=AOvVaw2065no8EadUjnDCc-P80ub&ust=1756635664852000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICLmPunso8DFQAAAAAdAAAAABAK" },
   { id: 3, name: "Irrigation Pump", price: "₹35,000", img: "https://5.imimg.com/data5/SELLER/Default/2023/1/XT/HG/FV/85493065/500-l-tractor-mounted-sprayer.jpg" },
-  { id: 4, name: "Riper Binder", price: "₹9,000", img: "https://5.imimg.com/data5/SELLER/Default/2022/11/JA/IF/DM/65750932/mild-steel-reaper-binder-500x500.jpg" },
+  { id: 4, name: "Riper Binder", price: "₹4,10,000", img: "https://5.imimg.com/data5/SELLER/Default/2022/11/JA/IF/DM/65750932/mild-steel-reaper-binder-500x500.jpg" },
 ];
 
 const sampleTestimonials = [
