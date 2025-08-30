@@ -280,9 +280,9 @@ const sampleTestimonials = [
     text: "FarmShop helped me connect with buyers in minutes. It's revolutionary!",
   },
   {
-    name: "Sunita Verma",
-    location: "Punjab",
-    text: "I sold all my extra tools in just 2 days. Great platform!",
+    name: "Rajesh Verma",
+    location: "Madhya Pradesh",
+    text: "i have purchased plough from here and its best. Great platform!",
   },
 ];
 

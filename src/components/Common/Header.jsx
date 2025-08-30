@@ -151,7 +151,7 @@ function Header() {
       <div className="header-container">
         {/* Logo */}
         <Link to="/" className="logo">
-          🌾 FarmShop
+          🌾 PA Equipments
         </Link>
 
         {/* Search Bar */}

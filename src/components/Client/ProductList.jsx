@@ -100,6 +100,3 @@ export default ProductList;
 
 
 
-
-
-
