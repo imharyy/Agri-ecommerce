@@ -267,7 +267,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const sampleProducts = [
-  { id: 1, name: "Tractor", price: "₹5,00,000", img: "https://via.placeholder.com/200" },
+  { id: 1, name: "Rotavator", price: "₹5,00,000", img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRTTWty9hg5bdcxS06zeFze4i5yPylgXUXBwcX6KwNzYIiV0EZk3zorRjDprwce4_E__0JDlZyikXakh1R9oXDGr7-GRO3kbg" },
   { id: 2, name: "Plough", price: "₹50,000", img: "https://via.placeholder.com/200" },
   { id: 3, name: "Irrigation Pump", price: "₹15,000", img: "https://via.placeholder.com/200" },
   { id: 4, name: "Harvesting Blade", price: "₹9,000", img: "https://via.placeholder.com/200" },
