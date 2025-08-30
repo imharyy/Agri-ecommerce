@@ -16,7 +16,7 @@ function Footer() {
           gap: '30px' 
         }}>
           <div className="footer-section">
-            <h3 style={{ marginBottom: '15px' }}>🌾 FarmShop</h3>
+            <h3 style={{ marginBottom: '15px' }}>🌾 PA Equipments</h3>
             <p>Your trusted partner in agriculture</p>
           </div>
           
